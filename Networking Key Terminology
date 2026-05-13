@@ -1,0 +1,183 @@
+# Networking Key Terminology
+
+## Core Protocols and Terms
+
+- WEP — Wired Equivalent Privacy
+
+A wireless security protocol formerly used to secure Wi-Fi networks. It is now considered weak and outdated.
+
+### SSH — Secure Shell
+
+A secure network protocol used to remotely log into systems and execute commands safely.
+
+### FTP — File Transfer Protocol
+
+Used to transfer files between systems over a network.
+
+### SMTP — Simple Mail Transfer Protocol
+
+Used to send and receive email messages.
+
+### HTTP — Hypertext Transfer Protocol
+
+Client-server protocol used to transfer web pages and data across the internet.
+
+### SMB — Server Message Block
+
+Used for sharing files, printers, and resources across a network.
+
+### NFS — Network File System
+
+Allows users to access files over a network as if they were local.
+
+### SNMP — Simple Network Management Protocol
+
+Used for monitoring and managing network devices.
+
+### WPA — Wi-Fi Protected Access
+
+Wireless security protocol that protects Wi-Fi using stronger security than WEP.
+
+### TKIP — Temporal Key Integrity Protocol
+
+Older wireless security protocol used with WPA; less secure than modern standards.
+
+### NTP — Network Time Protocol
+
+Used to synchronize time across computers and devices on a network.
+
+### VLAN — Virtual Local Area Network
+
+Logically separates one physical network into multiple smaller networks.
+
+### VTP — VLAN Trunking Protocol
+
+Layer 2 Cisco protocol used to manage VLAN configurations across switches.
+
+### RIP — Routing Information Protocol
+
+A distance-vector routing protocol used in LANs and WANs.
+
+### OSPF — Open Shortest Path First
+
+An interior gateway protocol used for routing within a single autonomous system.
+
+### IGRP — Interior Gateway Routing Protocol
+
+Cisco proprietary routing protocol for routing within autonomous systems.
+
+### EIGRP — Enhanced Interior Gateway Routing Protocol
+
+Advanced Cisco routing protocol for efficient IP traffic routing.
+
+### PGP — Pretty Good Privacy
+
+Encryption system used to secure emails, files, and sensitive data.
+
+### NNTP — Network News Transfer Protocol
+
+Used for distributing and retrieving messages in internet newsgroups.
+
+### CDP — Cisco Discovery Protocol
+
+Cisco proprietary protocol for discovering and managing Cisco devices.
+
+### HSRP — Hot Standby Router Protocol
+
+Provides router redundancy in case the main router fails.
+
+### VRRP — Virtual Router Redundancy Protocol
+
+Provides automatic backup router assignment for network reliability.
+
+### STP — Spanning Tree Protocol
+
+Prevents loops in Layer 2 Ethernet networks.
+
+### TACACS — Terminal Access Controller Access-Control System
+
+Provides centralized authentication, authorization, and accounting for network access.
+
+### SIP — Session Initiation Protocol
+
+Used to establish and terminate voice, video, and multimedia sessions.
+
+### VOIP — Voice Over IP
+
+Technology that allows phone calls over the internet.
+
+### EAP — Extensible Authentication Protocol
+
+Authentication framework supporting multiple login methods.
+
+### LEAP — Lightweight Extensible Authentication Protocol
+
+Cisco wireless authentication protocol based on EAP.
+
+### PEAP — Protected Extensible Authentication Protocol
+
+Provides encrypted authentication tunnels for secure network access.
+
+### SMS — Systems Management Server
+
+Used for managing systems, networks, and mobile devices.
+
+### MBSA — Microsoft Baseline Security Analyzer
+
+Microsoft security tool used to detect vulnerabilities in Windows systems.
+
+### SCADA — Supervisory Control and Data Acquisition
+
+Industrial control system used to monitor and manage industrial operations.
+
+### VPN — Virtual Private Network
+
+Creates a secure encrypted connection over the internet.
+
+### IPsec — Internet Protocol Security
+
+Provides secure encrypted communication over networks, commonly used in VPNs.
+
+### PPTP — Point-to-Point Tunneling Protocol
+
+Used to create encrypted tunnels for remote access.
+
+### NAT — Network Address Translation
+
+Allows multiple devices to share one public IP address.
+
+### CRLF — Carriage Return Line Feed
+
+Marks the end of a line and start of a new one in text file formats.
+
+### AJAX — Asynchronous JavaScript and XML
+
+Web development method for dynamic web pages using JavaScript and XML/JSON.
+
+### ISAPI — Internet Server Application Programming Interface
+
+Allows high-performance web extensions for web servers.
+
+### URI — Uniform Resource Identifier
+
+General identifier used for resources on the internet.
+
+### URL — Uniform Resource Locator
+
+A subset of URI that identifies the exact location of a resource online.
+
+### IKE — Internet Key Exchange
+
+Used in VPNs to establish secure encrypted connections.
+
+### GRE — Generic Routing Encapsulation
+
+Encapsulates data transmitted inside VPN tunnels.
+
+### RSH — Remote Shell
+
+Unix program used to execute commands on a remote system.
+
+Internet Key Exchange	IKE	IKE is a protocol used to set up a secure connection between two computers. It is used in virtual private networks (VPNs) to provide authentication and encryption for data transmission, protecting the data from outside eavesdropping and tampering.
+Generic Routing Encapsulation	GRE	This protocol is used to encapsulate the data being transmitted within the VPN tunnel.
+Remote Shell	RSH	It is a program under Unix that allows executing commands and programs on a remote computer
